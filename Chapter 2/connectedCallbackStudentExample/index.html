@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Connected Callback Example</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      /// importing the first custom element
+      import StudentAttendanceTable from './StudentAttendanceTable.js';
+
+      customElements.define('student-attendance-table', StudentAttendanceTable);
+    </script>
+
+  </head>
+  <body>
+
+    <student-attendance-table></student-attendance-table>
+
+  </body>
+</html>
