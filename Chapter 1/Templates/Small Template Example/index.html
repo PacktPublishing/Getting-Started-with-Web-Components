@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      .red-border {
+        border: 1px solid red;
+        padding: 10px;
+      }
+
+      #target {
+        border: 1px solid blue;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      function handleClick() {
+        let templateReference = document.querySelector('#my-template');
+        let templateContent = templateReference.content;
+
+        document.querySelector('#target')
+          .appendChild(templateContent.cloneNode(true));
+      }
+    </script>
+
+    <template id="my-template">
+      <div class="red-border">
+        <p>Hello Templates</p>
+        <p>This is a small template</p>
+      </div>
+    </template>
+
+    <button onclick="handleClick()">Put Template Code to target div</button>
+
+    <div id="target"></div>
+
+  </body>
+</html>

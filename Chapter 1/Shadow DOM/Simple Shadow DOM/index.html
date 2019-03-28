@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Hello World Shadow DOM</title>
+  </head>
+  <body>
+
+    <h1>This is H1</h1>
+    <p></p>
+
+    <script type="text/javascript">
+      let shadowRootEl = document.querySelector('p');
+      let shadowRoot   = shadowRootEl.attachShadow({
+                          mode: 'open'
+                        });
+      let newEl        = document.createElement('span');
+
+      newEl.innerText = "This is span tag";
+
+      shadowRoot.appendChild(newEl);
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      class HelloWorld extends HTMLElement {
+        constructor() {
+          super();
+
+          // Get the reference to the template
+          let templateReference = document.querySelector('#hello-world-template');
+
+          // Get the content node
+          let templateContent = templateReference.content;
+
+          let shadowRoot = this.attachShadow({mode: 'open'});
+
+          // add a text node
+          shadowRoot.append(templateContent.cloneNode(true));
+        }
+      }
+
+      customElements.define('hello-world', HelloWorld);
+    </script>
+
+    <template id="hello-world-template">
+      <div>
+        <p>Hello Templates</p>
+        <p>This is a small template</p>
+      </div>
+    </template>
+
+    <hello-world></hello-world>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  </head>
+  <body>
+
+    <smiley-emoji></smiley-emoji>
+
+    <script type="text/javascript">
+      class SmileyEmoji extends HTMLElement {
+        constructor() {
+          super();
+          // let's set the inner text of
+          // this element to a smiley
+          this.innerText = '😃';
+        }
+      }
+
+      customElements.define('smiley-emoji', SmileyEmoji);
+    </script>
+
+  </body>
+</html>

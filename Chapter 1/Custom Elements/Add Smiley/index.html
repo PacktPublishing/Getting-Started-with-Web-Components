@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  </head>
+  <body>
+
+    <span is="add-smiley">Hello World</span>
+
+    <script type="text/javascript">
+      class AddSmiley extends HTMLSpanElement {
+        constructor() {
+          super();
+
+          // lets append a smiley
+          // to the inner text
+          this.innerText += '😃';
+        }
+      }
+
+      customElements.define('add-smiley', AddSmiley, { extends: 'span' });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+
+    <hello-world></hello-world>
+
+    <script type="text/javascript">
+      class HelloWorld extends HTMLElement {
+        constructor() {
+          // very important
+          // needed in every constructor
+          // which extends another class
+          super();
+
+          // do magic here
+          this.innerText = 'Hello World';
+        }
+      }
+
+      customElements.define('hello-world', HelloWorld);
+    </script>
+
+  </body>
+</html>

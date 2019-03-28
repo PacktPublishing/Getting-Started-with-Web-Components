@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Hello World Shadow DOM 2</title>
+  </head>
+  <body>
+
+    <div class="entry"></div>
+
+    <script type="text/javascript">
+      // get the reference to the div
+      let shadowRootEl = document.querySelector('.entry');
+
+      // mark it as a shadow root
+      let shadowRoot   = shadowRootEl.attachShadow({mode: 'open'});
+
+      // create a random span tag
+      // that can be appended to the shadow root
+      let childEl        = document.createElement('span');
+      childEl.innerText = "Hello Shadow DOM";
+
+      // append the span tag to shadow root
+      shadowRoot.appendChild(childEl);
+    </script>
+
+  </body>
+</html>

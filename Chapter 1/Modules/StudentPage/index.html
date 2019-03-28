@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Student Page</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      // importing the first custom element
+      import StudentAttendanceTable from './StudentAttendanceTable.js';
+
+      // importing the second custom element
+      import InformationBanner from './InformationBanner.js';
+
+      // importing the third custom element
+      import TimeSlot from './TimeSlot.js';
+
+      customElements.define('student-attendance-table', StudentAttendanceTable);
+      customElements.define('information-banner', InformationBanner);
+      customElements.define('time-slot', TimeSlot);
+    </script>
+
+  </head>
+  <body>
+
+    <time-slot></time-slot>
+    <student-attendance-table></student-attendance-table>
+    <information-banner></information-banner>
+
+    <!--
+      Template for
+      student-attendance-table
+    -->
+    <template id="information-banner-template">
+      <div>
+        <a href="tel:1234567890">Call: 1234567890</a>
+        <div>
+          <p>Just Some Random Street</p>
+          <p>Town</p>
+          <p>State - 123456</p>
+        </div>
+      </div>
+    </template>
+
+    <template id="time-slot-template">
+      <div>
+        <div>
+          <input type="radio" name="timeslot" value="slot1" checked> 9:00 AM - 11:00 AM
+        </div>
+        <div>
+          <input type="radio" name="timeslot" value="slot2"> 11:00 AM - 1:00 PM
+        </div>
+        <div>
+          <input type="radio" name="timeslot" value="slot3"> 1:00 PM - 3:00 PM
+        </div>
+      </div>
+    </template>
+
+  </body>
+</html>

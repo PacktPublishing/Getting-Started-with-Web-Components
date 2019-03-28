@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      .red-border {
+        border: 1px solid red;
+        padding: 10px;
+      }
+
+      #target {
+        border: 1px solid blue;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      function handleClick() {
+        // Get the reference to the template
+        let templateReference = document.querySelector('#my-template');
+
+        // Get the content node
+        let templateContent = templateReference.content;
+
+        // Get the reference to target DOM
+        let targetDOM = document.querySelector('#target');
+
+        // add a shadow root to the target reference DOM
+        let targetShadowRoot = targetDOM.attachShadow({mode: 'open'});
+
+        // clone the template content
+        // and append it to the target div
+        targetShadowRoot.appendChild(templateContent.cloneNode(true));
+        }
+    </script>
+
+    <template id="my-template">
+      <div class="red-border">
+        <p>Hello Templates</p>
+        <p>This is a small template</p>
+      </div>
+    </template>
+
+    <button onclick="handleClick()">Put Template Code to target div</button>
+
+    <div id="target"></div>
+
+  </body>
+</html>

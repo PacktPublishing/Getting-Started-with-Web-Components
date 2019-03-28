@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Revamped Paragraph</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      // imports object from the module
+      // and names it as RevampedParagraph
+      // You can name it anything you want
+      // since it is a default export
+      import RevampedParagraph from './revampedParagraph.js';
+
+      // We are now defining the custom element
+      customElements.define('revamped-paragraph', RevampedParagraph);
+    </script>
+
+  </head>
+  <body>
+
+    <revamped-paragraph></revamped-paragraph>
+
+    <!--
+      Template for
+      Revamped Paragraph
+    -->
+    <template id="revamped-paragraph-template">
+      <h1>Revamped Paragraph</h1>
+      <p>This is the default paragraph inside
+      the revamped-paragraph element</p>
+    </template>
+
+  </body>
+</html>

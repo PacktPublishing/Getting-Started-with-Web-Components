@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  </head>
+  <body>
+
+    <hello-world></hello-world>
+
+    <script type="text/javascript">
+      class HelloWorld extends HTMLElement {
+        constructor() {
+          super();
+
+          let shadowRoot = this.attachShadow({mode: 'open'});
+
+          // add a text node
+          shadowRoot.append('Hello World');
+        }
+        }
+
+        customElements.define('hello-world', HelloWorld);
+    </script>
+
+  </body>
+</html>
