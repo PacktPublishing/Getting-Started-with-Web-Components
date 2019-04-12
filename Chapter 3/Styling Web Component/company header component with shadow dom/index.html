@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Custom header</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import CompanyHeader from './CompanyHeader.js';
+
+      // We are now defining the custom element
+      customElements.define('company-header', CompanyHeader);
+    </script>
+
+  </head>
+  <body>
+
+    <company-header
+        icon="icon.png"
+        page-name="My Page">
+    </company-header>
+  </body>
+</html>

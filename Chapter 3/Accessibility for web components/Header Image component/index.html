@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Header Image</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import HeaderImage from './HeaderImage.js';
+
+      // We are now defining the custom element
+      customElements.define('header-image', HeaderImage);
+    </script>
+
+  </head>
+  <body>
+    <header-image alt="aaa"
+      src="https://www.freewebheaders.com/wordpress/wp-content/gallery/clouds-sky/clouds-sky-header-2069-1024x300.jpg"></header-image>
+  </body>
+</html>
