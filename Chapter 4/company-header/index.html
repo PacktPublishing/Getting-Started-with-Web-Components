@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Custom header</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import CompanyHeader from './CompanyHeader.js';
+
+      // We are now defining the custom element
+      customElements.define('company-header', CompanyHeader);
+    </script>
+
+    <style>
+      .header-links__container {
+        list-style: none;
+        margin: 0;
+      }
+      .header-links__container > li {
+        display: inline-block;
+      }
+      .header-links {
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+
+    <company-header
+        icon="icon.png"
+        page-name="My Page">
+        <ul slot="other-links" class="header-links__container">
+          <li>
+            <a class="header-links" href="/home.html">Home</a>
+          </li>
+          <li>
+            <a class="header-links" href="/aboutus.html">About Us</a>
+          </li>
+        </ul>
+    </company-header>
+  </body>
+</html>

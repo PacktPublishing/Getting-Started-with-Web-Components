@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Profile Information</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import ProfileInfo from '../ProfileInfo.js';
+
+      // We are now defining the custom element
+      customElements.define('profile-info', ProfileInfo);
+    </script>
+
+  </head>
+  <body>
+
+    <profile-info
+      name="John Doe"
+      designation="Frontend Engineer - Marketing"
+      id-number="PRC-1455"
+      picture-src="./john-doe.png"
+      employee-type="ft">
+    </profile-info>
+
+    <profile-info
+      name="John Doe"
+      designation="Frontend Engineer - Marketing"
+      id-number="PRC-1455"
+      picture-src="./john-doe.png"
+      employee-type="pt">
+    </profile-info>
+
+    <profile-info
+      name="John Doe"
+      designation="Frontend Engineer - Marketing"
+      id-number="PRC-1455"
+      picture-src="./john-doe.png"
+      employee-type="ct">
+    </profile-info>
+  </body>
+</html>
