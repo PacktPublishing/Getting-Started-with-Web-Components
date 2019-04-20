@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Student List</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import StudentList from './StudentList.js';
+
+      // We are now defining the custom element
+      customElements.define('student-list', StudentList);
+    </script>
+  </head>
+  <body>
+
+    <student-list></student-list>
+  </body>
+</html>

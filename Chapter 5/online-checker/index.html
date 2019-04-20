@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Online Checker</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import OnlineChecker from './OnlineChecker.js';
+
+      // We are now defining the custom element
+      customElements.define('online-checker', OnlineChecker);
+    </script>
+  </head>
+  <body>
+
+    <online-checker></online-checker>
+  </body>
+</html>

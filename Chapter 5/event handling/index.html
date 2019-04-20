@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Custom Clicker</title>
+
+    <!--
+      Notice how we use type="module"
+    -->
+    <script type="module">
+
+      import CustomClicker from './CustomClicker.js';
+
+      // We are now defining the custom element
+      customElements.define('custom-clicker', CustomClicker);
+    </script>
+  </head>
+  <body>
+
+    <custom-clicker></custom-clicker>
+
+    <script type="text/javascript">
+      document.querySelector('custom-clicker').addEventListener('change', (e) => {
+        console.log(e.detail);
+      });
+    </script>
+
+
+  </body>
+</html>
