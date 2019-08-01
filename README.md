@@ -1,6 +1,6 @@
 # Getting Started with Web Components
 
-<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Getting Started with Web Components" height="256px" align="right"></a>
 
 This is the code repository for [Getting Started with Web Components](Packt UTM URL of the Book), published by Packt.
 
@@ -50,22 +50,15 @@ With the following software and hardware list you can run all code files present
 | 6        | NodeJS                                     | Windows, Mac OS X, and Linux (Any) |
 
 
-
-
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Learn React with TypeScript 3 [[Packt]](https://www.packtpub.com/web-development/learn-react-typescript-3?utm_source=github&utm_medium=repository&utm_campaign=9781789610253) [[Amazon]](https://www.amazon.com/dp/1789610257)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Learn WebAssembly [[Packt]](https://www.packtpub.com/web-development/learn-webassembly?utm_source=github&utm_medium=repository&utm_campaign=9781788997379) [[Amazon]](https://www.amazon.com/dp/1788997379)
 
 ## Get to Know the Author
-**Author Name**
-Bio
+**Prateek Jadhwani**
+is a developer specializing in frontend technologies, living and working in the US. His experience includes 10 years of working as a frontend developer for many high-profile clients and many early-adoption side projects. Prateek had his first exposure to Web Components in 2014, and instantly fell in love with component-driven methodologies. Since then, he has evangelized Web Components and its related libraries to people at work and outside of work. Prateek loves all things open source and enjoys writing good JavaScript. A love for programming in general and a thirst for knowledge provide the motivation he carries through his work.
 
-
-
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
