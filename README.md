@@ -9,7 +9,7 @@ This is the code repository for [Getting Started with Web Components](Packt UTM 
 ## What is this book about?
 Web Components are a set of APIs that help you build reusable UI modules that can operate in any modern browser using just Vanilla JavaScript. The power of Web Components lies in their ability to build frontend web applications with or without web frameworks.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Understand Web Component design, specifications, and life cycle
 * Create single-page applications using Web Components
 * Enable reusability and customization for your UI components
