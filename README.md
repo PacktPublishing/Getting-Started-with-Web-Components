@@ -1,8 +1,8 @@
 # Getting Started with Web Components
 
-<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Getting Started with Web Components" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/1/b14004_mockupcover.png" alt="Getting Started with Web Components" height="256px" align="right"></a>
 
-This is the code repository for [Getting Started with Web Components](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Getting Started with Web Components](https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234), published by Packt.
 
 **Build modular and reusable components for modern web applications using HTML and JavaScript**
 
@@ -16,7 +16,7 @@ This book covers the following exciting features:
 * Implement Web Components in your web apps using Polymer and Stencil libraries
 * Build powerful frontend components from scratch and deploy them on web
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1838649239) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
