@@ -1,6 +1,6 @@
 # Getting Started with Web Components
 
-<a href="https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/1/b14004_mockupcover.png" alt="Getting Started with Web Components" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234"><img src="https://static.packt-cdn.com/products/9781838649234/cover/smaller" alt="Getting Started with Web Components" height="256px" align="right"></a>
 
 This is the code repository for [Getting Started with Web Components](https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234), published by Packt.
 
