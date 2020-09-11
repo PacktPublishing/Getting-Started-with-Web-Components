@@ -75,8 +75,11 @@ export default class CompanyLogin extends HTMLElement {
     // We will do things as per our requirement
     let loginSuccess = Math.random();
     if(loginSuccess > 0.5) {
+      this.classList.remove('login-failure');
       this.classList.add('login-success');
+
     } else {
+      this.classList.remove('login-success');
       this.classList.add('login-failure');
     }
   }
