@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B14004?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 # Getting Started with Web Components
 
 <a href="https://www.packtpub.com/web-development/getting-started-web-components?utm_source=github&utm_medium=repository&utm_campaign=9781838649234"><img src="https://static.packt-cdn.com/products/9781838649234/cover/smaller" alt="Getting Started with Web Components" height="256px" align="right"></a>
